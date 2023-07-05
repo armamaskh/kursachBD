@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admins</class>
+ <widget class="QMainWindow" name="admins">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1304</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+  border:8px solid #000000;
+  border-radius: 25px;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="dobavlPOLZ">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>508</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>addUSER/ADMIN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vihod">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>20</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:2px solid #000000;
+  border-radius: 10px;
+background-color: rgb(207, 20, 23);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveedit">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>210</y>
+      <width>101</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(224, 238, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nazad">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>20</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+  border:2px solid #000000;
+  border-radius: 10px;
+padding-left: 0px;
+padding-up: 20px;</string>
+    </property>
+    <property name="text">
+     <string>avtorization</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addline">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>211</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>add</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>931</x>
+      <y>50</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+  border:4px solid #000000;
+  border-radius: 25px;
+background-color: rgb(255, 228, 228);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="inf">
+     <property name="geometry">
+      <rect>
+       <x>123</x>
+       <y>30</y>
+       <width>105</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 0px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>information</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fb">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>30</y>
+       <width>104</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 0px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>feedback</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="information">
+     <property name="geometry">
+      <rect>
+       <x>124</x>
+       <y>10</y>
+       <width>105</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+
+padding-left: 43px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="feedback">
+     <property name="geometry">
+      <rect>
+       <x>239</x>
+       <y>10</y>
+       <width>104</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 44px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="personal">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>10</y>
+       <width>104</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 44px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pers">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>104</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 0px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>personal</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="delline">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>210</y>
+      <width>81</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>del</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="undoedits">
+    <property name="geometry">
+     <rect>
+      <x>1051</x>
+      <y>370</y>
+      <width>71</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveedit_2">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>370</y>
+      <width>141</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>update</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>891</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{background-color: rgb(255, 255, 255);
+  border:0px solid #000000;
+  border-radius: 25px;
+font: 9pt &quot;SERomand&quot;;}
+QTableView{
+colomn1-	font: 75 10pt &quot;Segoe UI Variable Small&quot;;
+}
+
+QScrollBar:vertical {
+            border: 0px solid #999999;
+            background:white;
+            width:8px;    
+            margin: 0px 0px 0px 0px;
+        }
+        QScrollBar::handle:vertical {         
+       
+            min-height: 0px;
+          	border: 0px solid red;
+			border-radius: 4px;
+			background-color: black;
+        }
+        QScrollBar::add-line:vertical {       
+            height: 0px;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+        QScrollBar::sub-line:vertical {
+            height: 0 px;
+            subcontrol-position: top;
+            subcontrol-origin: margin;
+        };
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="tabKeyNavigation">
+     <bool>false</bool>
+    </property>
+    <property name="showDropIndicator" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="dragDropOverwriteMode">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>567</y>
+      <width>847</width>
+      <height>5</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>18</y>
+      <width>846</width>
+      <height>5</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>40</y>
+      <width>5</width>
+      <height>492</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>909</x>
+      <y>46</y>
+      <width>5</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>883</x>
+      <y>18</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:5px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border-top-left-radius : 0;
+border-top-right-radius : 26;
+border-bottom-right-radius: 0;
+border-bottom-left-radius : 0;
+
+border-left: opx;
+border-bottom: opx;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>883</x>
+      <y>531</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:5px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border-top-left-radius : 0;
+border-top-right-radius : 0;
+border-bottom-right-radius: 26;
+border-bottom-left-radius : 0;
+
+border-left: opx;
+border-top: opx;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>531</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:5px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border-top-left-radius : 0;
+border-top-right-radius : 0;
+border-bottom-right-radius: 0;
+border-bottom-left-radius : 26;
+
+border-right: opx;
+border-top: opx;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>18</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:5px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border-top-left-radius : 25;
+border-top-right-radius : 0;
+border-bottom-right-radius: 0;
+border-bottom-left-radius : 0;
+
+border-right: opx;
+border-bottom: opx;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>18</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:0px solid #000000;
+background-color: rgb(255, 255, 255);
+border-top-left-radius : 0;
+border-top-right-radius : 1;
+border-bottom-right-radius: 0;
+border-bottom-left-radius : 0;
+
+border-left: opx;
+border-bottom: opx;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_11">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>550</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:0px solid #000000;
+background-color: rgb(255, 255, 255);
+border-top-left-radius : 0;
+border-top-right-radius : 1;
+border-bottom-right-radius: 0;
+border-bottom-left-radius : 0;
+
+border-left: opx;
+border-bottom: opx;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>140</y>
+      <width>71</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:1px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border-radius: 15px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>search</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>931</x>
+      <y>130</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+  border:4px solid #000000;
+  border-radius: 25px;
+background-color: rgb(255, 228, 228);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="pers_2">
+     <property name="geometry">
+      <rect>
+       <x>-6</x>
+       <y>35</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 0px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>col1</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pers_3">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>35</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 0px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>col2</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="col1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 0px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 0px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>161</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;SERomand&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:0px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_10">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>40</y>
+       <width>162</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+   <zorder>frame_2</zorder>
+   <zorder>tableView</zorder>
+   <zorder>frame</zorder>
+   <zorder>dobavlPOLZ</zorder>
+   <zorder>vihod</zorder>
+   <zorder>nazad</zorder>
+   <zorder>addline</zorder>
+   <zorder>delline</zorder>
+   <zorder>undoedits</zorder>
+   <zorder>saveedit</zorder>
+   <zorder>saveedit_2</zorder>
+   <zorder>line</zorder>
+   <zorder>line_2</zorder>
+   <zorder>line_3</zorder>
+   <zorder>line_4</zorder>
+   <zorder>line_7</zorder>
+   <zorder>line_8</zorder>
+   <zorder>line_9</zorder>
+   <zorder>line_5</zorder>
+   <zorder>line_11</zorder>
+   <zorder>line_6</zorder>
+   <zorder>pushButton</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

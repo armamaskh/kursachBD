@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dobOTV</class>
+ <widget class="QMainWindow" name="dobOTV">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>675</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+  border:8px solid #000000;
+  border-radius: 25px;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="nazad">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>430</y>
+      <width>391</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+</string>
+    </property>
+    <property name="text">
+     <string>close</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>430</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(205, 218, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>631</width>
+      <height>178</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	background-color: rgb(255, 255, 255);
+font: 12pt &quot;SETxt&quot;;
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 20px;
+padding-right: 30px;
+QTextEdit{QScrollBar:vertical {
+            border: 0px solid #999999;
+            background:white;
+            width:8px;    
+            margin: 0px 0px 0px 0px;
+        }
+        QScrollBar::handle:vertical {         
+       
+            min-height: 0px;
+          	border: 0px solid red;
+			border-radius: 4px;
+			background-color: black;
+        }
+        QScrollBar::add-line:vertical {       
+            height: 0px;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+        QScrollBar::sub-line:vertical {
+            height: 0 px;
+            subcontrol-position: top;
+            subcontrol-origin: margin;
+        }}
+
+
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SETxt'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="vopross">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>83</y>
+      <width>631</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IO">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>631</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 20px;
+padding-right: 30px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="vopros">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>84</y>
+      <width>631</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 20px;
+padding-right: 30px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IOO">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>631</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="sotr">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>369</y>
+      <width>401</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 20px;
+padding-right: 30px;
+
+}
+QComboBox::drop-down{
+                    border: 0px solid #000000;
+                  }
+QScrollBar:vertical {
+            border: 0px solid #999999;
+            background:white;
+            width:8px;    
+            margin: 0px 0px 0px 0px;
+        }
+        QScrollBar::handle:vertical {         
+       
+            min-height: 0px;
+          	border: 0px solid red;
+			border-radius: 4px;
+			background-color: black;
+        }
+        QScrollBar::add-line:vertical {       
+            height: 0px;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+        QScrollBar::sub-line:vertical {
+            height: 0 px;
+            subcontrol-position: top;
+            subcontrol-origin: margin;
+        }
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Михаил Иванович</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Петя Пивной</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Инокентий Петрович</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Сафронов Иван</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Полякова Инна</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Горохов Алексей</string>
+     </property>
+    </item>
+   </widget>
+   <zorder>nazad</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>IO</zorder>
+   <zorder>vopros</zorder>
+   <zorder>IOO</zorder>
+   <zorder>vopross</zorder>
+   <zorder>sotr</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

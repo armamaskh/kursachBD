@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>nachokno</class>
+ <widget class="QMainWindow" name="nachokno">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>451</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>nachokno</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+  border:8px solid #000000;
+  border-radius: 25px;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>451</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.379538, y1:0.568, x2:0.523308, y2:0.545, stop:0.4375 rgba(255, 255, 255, 224), stop:1 rgba(187, 187, 187, 0));</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>0</y>
+       <width>452</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+  border:8px solid #000000;
+  border-radius: 25px;
+background-color: qlineargradient(spread:reflect, x1:0.379538, y1:0.568, x2:0.581, y2:0.544682, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>-110</x>
+       <y>70</y>
+       <width>491</width>
+       <height>93</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  border:0px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0.483409, x2:1, y2:0.363, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+  border-radius: 30 px;
+color: rgb(75, 75, 75);
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;INFORMATION&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>253</x>
+       <y>4</y>
+       <width>241</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+       <pointsize>41</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  border:0px solid #000000;
+  border-radius: 30 px;
+color: rgb(255, 17, 21);
+background-color: qlineargradient(spread:reflect, x1:0.379538, y1:0.568, x2:0.581, y2:0.544682, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;ta&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>389</x>
+       <y>-109</y>
+       <width>231</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+       <pointsize>90</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  border:0px solid #000000;
+  border-radius: 30 px;
+color: rgb(255, 17, 21);
+background-color: qlineargradient(spread:reflect, x1:0.379538, y1:0.568, x2:0.581, y2:0.544682, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;p&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>97</y>
+       <width>491</width>
+       <height>93</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>SETxt</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  border:0px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0.483409, x2:1, y2:0.363, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+  border-radius: 30 px;
+color: rgb(75, 75, 75);
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;system&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <zorder>label_6</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_7</zorder>
+    <zorder>pushButton</zorder>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>-9</y>
+      <width>401</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>191</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:0px solid #000000;
+  border-radius: 30 px;
+color: rgb(75, 75, 75);
+background-color: qlineargradient(spread:reflect, x1:0.379538, y1:0.568, x2:0.581, y2:0.544682, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt; font-weight:600;&quot;&gt;BARSIK &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>-200</x>
+      <y>-10</y>
+      <width>491</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:0px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0.483409, x2:1, y2:0.363, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+  border-radius: 30 px;
+color: rgb(75, 75, 75);
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt; font-weight:600;&quot;&gt;M&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+   <zorder>frame</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

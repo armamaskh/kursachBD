@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inform</class>
+ <widget class="QMainWindow" name="inform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>888</width>
+    <height>731</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+  border:8px solid #000000;
+  border-radius: 25px;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="inf">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>85</y>
+      <width>847</width>
+      <height>579</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 20px;
+padding-right: 30px;
+font: 10pt &quot;SETxt&quot;;
+
+QTextEdit{QScrollBar:vertical {
+            border: 0px solid #999999;
+            background:white;
+            width:8px;    
+            margin: 0px 0px 0px 0px;
+        }
+        QScrollBar::handle:vertical {         
+       
+            min-height: 0px;
+          	border: 0px solid red;
+			border-radius: 4px;
+			background-color: black;
+        }
+        QScrollBar::add-line:vertical {       
+            height: 0px;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+        QScrollBar::sub-line:vertical {
+            height: 0 px;
+            subcontrol-position: top;
+            subcontrol-origin: margin;
+        }}
+</string>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+    <property name="placeholderText">
+     <string>                             INFORMATION</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="date">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>680</y>
+      <width>187</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 15px;
+color: rgb(0, 0, 0);
+
+padding-left: 20px;
+padding-right: 30px;
+font: 12pt &quot;SETxt&quot;;</string>
+    </property>
+    <property name="placeholderText">
+     <string>   date</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clcl">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>20</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 190, 190);
+  border:4px solid #000000;
+  border-radius: 25px;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>680</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:4px solid #000000;
+  border-radius: 15px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>680</y>
+      <width>187</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:4px solid #000000;
+  border-radius: 15px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>791</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="autor">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>680</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 15px;
+color: rgb(0, 0, 0);
+padding-left: 20px;
+padding-right: 30px;
+
+}
+QComboBox::drop-down{
+                    border: 0px solid #000000;
+                  }
+QScrollBar:vertical {
+            border: 0px solid #999999;
+            background:white;
+            width:8px;    
+            margin: 0px 0px 0px 0px;
+        }
+        QScrollBar::handle:vertical {         
+       
+            min-height: 0px;
+          	border: 0px solid red;
+			border-radius: 4px;
+			background-color: black;
+        }
+        QScrollBar::add-line:vertical {       
+            height: 0px;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+        QScrollBar::sub-line:vertical {
+            height: 0 px;
+            subcontrol-position: top;
+            subcontrol-origin: margin;
+        }
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Михаил Иванович</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Петя Пивной</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Инокентий Петрович</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Сафронов Иван</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Полякова Инна</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Горохов Алексей</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="tema">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>791</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{	background-color: rgb(255, 255, 255);
+  border:4px solid #000000;
+  border-radius: 25px;
+color: rgb(0, 0, 0);
+padding-left: 20px;
+padding-right: 30px;
+	font: 16pt &quot;SETxt&quot;;
+
+}
+QComboBox::drop-down{
+                    border: 0px solid #000000;
+                  }
+QScrollBar:vertical {
+            border: 0px solid #999999;
+            background:white;
+            width:8px;    
+            margin: 0px 0px 0px 0px;
+        }
+        QScrollBar::handle:vertical {         
+       
+            min-height: 0px;
+          	border: 0px solid red;
+			border-radius: 4px;
+			background-color: black;
+        }
+        QScrollBar::add-line:vertical {       
+            height: 0px;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+        QScrollBar::sub-line:vertical {
+            height: 0 px;
+            subcontrol-position: top;
+            subcontrol-origin: margin;
+        }
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Как сделать стол в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать губку в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать снеговика в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать батут в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как включить и выключить дождь в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать тыкву в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как выдать невидимую рамку в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как включить читы в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как вылечить зомби-жителя в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как перевернуть моба в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать подмостки в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать бетон в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать кнопку в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать фонтан в Minecraft</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Как сделать камин в Minecraft</string>
+     </property>
+    </item>
+   </widget>
+   <zorder>clcl</zorder>
+   <zorder>inf</zorder>
+   <zorder>date</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_4</zorder>
+   <zorder>autor</zorder>
+   <zorder>tema</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

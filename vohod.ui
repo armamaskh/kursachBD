@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>vohod</class>
+ <widget class="QMainWindow" name="vohod">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>835</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+  border:8px solid #000000;
+  border-radius: 25px;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="nazad">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>124</y>
+      <width>511</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+  border:2px solid #000000;
+  border-radius: 30px;
+padding-left: 0px;
+padding-up: 40px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>назад</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>481</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>70</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:0px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0.483409, x2:1, y2:0.363, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+  border-radius: 30 px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:72pt; font-weight:600; text-decoration: underline;&quot;&gt;выйти?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>609</x>
+      <y>-116</y>
+      <width>511</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  background-color: #ffffff;
+  border:4px solid #000000;
+  border-radius: 25px;
+background-color: qlineargradient(spread:reflect, x1:0.379538, y1:0.568, x2:0.581, y2:0.544682, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-66</y>
+      <width>491</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>70</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:0px solid #000000;
+background-color: qlineargradient(spread:pad, x1:0, y1:0.483409, x2:1, y2:0.363, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+  border-radius: 30 px;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:72pt; font-weight:600;&quot;&gt;хотите &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vihod">
+    <property name="geometry">
+     <rect>
+      <x>546</x>
+      <y>124</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border:2px solid #000000;
+  border-radius: 30px;
+background-color: rgb(207, 20, 23);
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>ДО СВИДУЛИ!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>-19</x>
+      <y>62</y>
+      <width>521</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SETxt</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  background-color: #ffffff;
+  border:4px solid #000000;
+  border-radius: 25px;
+background-color: qlineargradient(spread:reflect, x1:0.379538, y1:0.568, x2:0.581, y2:0.544682, stop:0 rgba(255, 255, 255, 0), stop:1 rgba(187, 187, 187, 0));
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_5</zorder>
+   <zorder>nazad</zorder>
+   <zorder>vihod</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>nazad</sender>
+   <signal>clicked()</signal>
+   <receiver>vohod</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>214</x>
+     <y>135</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>535</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
